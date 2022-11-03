@@ -1,7 +1,7 @@
 import time
 
 # ************************************ SETUP ************************************
-with open("google-10000-english.txt", "r") as text:
+with open("10000-english.txt", "r") as text:
     original_array = [line for line in text.read().split("\n")]
 
 # ************************************ FUNCTIONS ************************************
